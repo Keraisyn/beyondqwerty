@@ -2,4 +2,4 @@
 Try out different keyboard layouts in your browser!
 
 ## Information
-I created this for the MasseyHacks V hackathon. It is a site that converts keystrokes from qwerty to keystrokes from dvorak. Visit the website to try it out.
+We are all familiar with the keyboard layout QWERTY. But, there are in fact many more keyboard layouts exist such as Dvorak. Some say these layouts are more efficient or even faster than QWERTY. Try them out in the safety of your browser. BeyondQWERTY was my submission to MasseyHacks V.
