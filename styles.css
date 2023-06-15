@@ -3,10 +3,15 @@ body {
     padding: 0;
     background-color: #D5D8DC;
     font-family: monospace;
+    overflow: hidden;
 }
 
 #wrapper {
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    padding-top: 30px;
 }
 
 .footer {
@@ -25,7 +30,7 @@ body {
     padding-top: 30px;
     width:50vw;
     height:13.5vw;
-    max-height:13.5vw;
+    flex-grow: 1;
 }
 
 .topnav {
@@ -34,6 +39,8 @@ body {
     margin: auto;
     text-align: center;
     padding:14px 20px;
+    position: absolute;
+    width: 100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -136,11 +143,17 @@ h1 {
     word-break: break-all;
 }
 
+#keyboardwrapper {
+    display: flex;
+    justify-content: center;    
+}
+
 #keyboard {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     font-family: sans-serif;
     transition-duration: 1s;
+    max-width:1000px
 }
 
 .keyboard__row {

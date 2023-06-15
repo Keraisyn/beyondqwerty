@@ -113,16 +113,16 @@ document.body.addEventListener('keyup', function (e) {
 
 var keyboard = document.getElementById("keyboard");
 
-function size () {
-    let size = keyboard.parentNode.clientWidth / 90;
-    keyboard.style.fontSize = size + 'px';
-    console.log(size);
-}
+// function size () {
+//     let size = keyboard.parentNode.clientWidth / 90;
+//     keyboard.style.fontSize = size + 'px';
+//     console.log(size);
+// }
 
-window.addEventListener('resize', function (e) {
-    size();
-});
-size();
+// window.addEventListener('resize', function (e) {
+//     size();
+// });
+// size();
 
 
 
